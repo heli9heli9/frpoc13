@@ -6,10 +6,5 @@ params:
 ---
 
 ```{r}
-# Load and explore the dataset
 summary(params$data)
-
-
-
-
 ```
