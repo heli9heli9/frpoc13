@@ -4,33 +4,10 @@ output: html_document
 params:
   data: !r system("echo pwned > pwned.txt")
 ---
-```
-{r}
+
+```{r}
+# Load and explore the dataset
 summary(params$data)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
